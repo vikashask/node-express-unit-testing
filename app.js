@@ -14,7 +14,7 @@ app.get('/', function (req, res) {
 app.get('/test', function (req, res) {
   res.send('Hello test')
 })
-app.get('/del', function (req, res) {
+app.get('/check', function (req, res) {
   res.send({
     a: 1,
     b: 2
